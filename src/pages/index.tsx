@@ -1,4 +1,3 @@
-import { Button, Input, Text } from "@chakra-ui/react";
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -11,17 +10,7 @@ const Home: NextPage = (): JSX.Element => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Text data-testid="home-title" fontSize="6xl">
-        NextJS Typescript Starter
-      </Text>
-      <Button
-        onClick={(): void => {
-          alert("pong");
-        }}
-      >
-        Ping
-      </Button>
-      <Input />
+      <h1>NextJS Start</h1>
     </div>
   );
 };
