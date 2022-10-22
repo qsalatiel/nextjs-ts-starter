@@ -1,5 +1,5 @@
-import type { NextPage } from "next";
-import Head from "next/head";
+import type { NextPage } from 'next'
+import Head from 'next/head'
 
 const Home: NextPage = (): JSX.Element => {
   return (
@@ -12,7 +12,7 @@ const Home: NextPage = (): JSX.Element => {
 
       <h1>NextJS Start</h1>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
